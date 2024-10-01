@@ -2,7 +2,7 @@ from funcoes import *
 
 while True:
     try:
-        move1 = pyautogui.locateOnScreen('./imagens/rope.png', confidence=0.9)
+        move1 = pyautogui.locateOnScreen('./imagens/x.png', confidence=0.9)
         print(move1)
         pyautogui.moveTo(move1)
         break
